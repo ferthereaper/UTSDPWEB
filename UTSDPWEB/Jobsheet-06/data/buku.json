@@ -1,0 +1,12 @@
+[
+    { "judul": "Laskar Pelangi", "pengarang": "Andrea Hirata", "tahun": 2005, "stok": 4 },
+    { "judul": "Bumi Manusia", "pengarang": "Pramoedya Ananta Toer", "tahun": 1980, "stok": 2 },
+    { "judul": "Negeri 5 Menara", "pengarang": "Ahmad Fuadi", "tahun": 2000, "stok": 0 },
+    { "judul": "Filosofi Teras", "pengarang": "Henry Manampiring", "tahun": 2018, "stok": 5 },
+    { "judul": "Ronggeng Dukuh Paruk", "pengarang": "Ahmad Tohari", "tahun": 1982, "stok": 1 },
+    { "judul": "The Fragrant Flower Blooms with Dignity", "pengarang": "Saka Mikami", "tahun": 2022, "stok": 2 },
+    { "judul": "Introver", "pengarang": "M.F. Hazim", "tahun": 2017, "stok": 3 },
+    { "judul": "Pulang", "pengarang": "Tere Liye", "tahun": 2015, "stok": 3 },
+    { "judul": "Sapiens", "pengarang": "Yuval Noah Harari", "tahun": 2011, "stok": 2 },
+    { "judul": "Atomic Habits", "pengarang": "James Clear", "tahun": 2018, "stok": 4 }
+]
