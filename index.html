@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UTS DPWEB | Portal Jobsheet SIMPUS-Mini</title>
+    <style>
+        :root {
+            --bg: #fcf8f9;
+            --panel: #ffffff;
+            --ink: #2b2b2b;
+            --mute: #6b6b6b;
+            --brand: #d81b60;
+            --line: #f1cfdc;
+            --soft: #fce4ec;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #17131a;
+                --panel: #211b25;
+                --ink: #ece6ee;
+                --mute: #a79bad;
+                --brand: #f06292;
+                --line: #3a2e41;
+                --soft: #2b2130;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--ink);
+            line-height: 1.6;
+        }
+
+        .wrap {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem 1.25rem 3rem;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, var(--brand), #ff7a9c);
+            color: #fff;
+            border-radius: 14px;
+            padding: 2rem;
+            margin-bottom: 1.75rem;
+        }
+
+        .hero h1 {
+            font-size: 1.8rem;
+            line-height: 1.25;
+        }
+
+        .hero p {
+            margin-top: 0.5rem;
+            opacity: 0.95;
+            max-width: 60ch;
+        }
+
+        h2 {
+            font-size: 0.8rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--mute);
+            margin: 1.5rem 0 0.75rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1rem;
+        }
+
+        a.card {
+            display: block;
+            background: var(--panel);
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            padding: 1.1rem 1.25rem;
+            color: inherit;
+            text-decoration: none;
+            transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
+        }
+
+        a.card:hover,
+        a.card:focus-visible {
+            transform: translateY(-3px);
+            border-color: var(--brand);
+            box-shadow: 0 6px 16px rgba(216, 27, 96, 0.15);
+            outline: none;
+        }
+
+        .tag {
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 0.07em;
+            text-transform: uppercase;
+            color: var(--brand);
+        }
+
+        .card h3 {
+            font-size: 1.1rem;
+            margin: 0.15rem 0 0.3rem;
+        }
+
+        .card p {
+            font-size: 0.9rem;
+            color: var(--mute);
+        }
+
+        .card .go {
+            display: inline-block;
+            margin-top: 0.6rem;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--brand);
+        }
+
+        a.card.final {
+            background: var(--soft);
+            border-color: var(--brand);
+        }
+
+        footer {
+            margin-top: 2.5rem;
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--mute);
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <header class="hero">
+            <h1>Portal Jobsheet SIMPUS-Mini</h1>
+            <p>Pilih versi proyek yang ingin dibuka. Setiap jobsheet adalah salinan lengkap aplikasi pada tahap pengerjaannya.</p>
+        </header>
+
+        <h2>Dokumentasi</h2>
+        <div class="grid">
+            <a class="card" href="handbook/handbook-simpus-mini.html">
+                <span class="tag">Handbook</span>
+                <h3>Handbook SIMPUS-Mini</h3>
+                <p>Penjelasan kode baris demi baris, riwayat perubahan Jobsheet 01 sampai 06, dan catatan perbaikan.</p>
+                <span class="go">Baca handbook &rarr;</span>
+            </a>
+        </div>
+
+        <h2>Jobsheet</h2>
+        <div class="grid">
+            <a class="card" href="Jobsheet-01/index.html">
+                <span class="tag">Jobsheet 01</span>
+                <h3>Pondasi HTML</h3>
+                <p>Halaman Beranda, Daftar dan Tambah Buku, Daftar dan Tambah Anggota tanpa CSS dan JavaScript.</p>
+                <span class="go">Buka &rarr;</span>
+            </a>
+
+            <a class="card" href="Jobsheet-02/index.html">
+                <span class="tag">Jobsheet 02</span>
+                <h3>Menambah CSS</h3>
+                <p>Tema pink, layout grid dengan sidebar, kartu, tabel, dan form.</p>
+                <span class="go">Buka &rarr;</span>
+            </a>
+
+            <a class="card" href="Jobsheet-03/index.html">
+                <span class="tag">Jobsheet 03</span>
+                <h3>Responsif</h3>
+                <p>Viewport, media query, tabel bisa digulir, dan menu hamburger dengan checkbox hack.</p>
+                <span class="go">Buka &rarr;</span>
+            </a>
+
+            <a class="card" href="Jobsheet-04/index.html">
+                <span class="tag">Jobsheet 04</span>
+                <h3>Desain Ulang dan Wireframe</h3>
+                <p>Tema oranye dengan navbar atas, serta dokumen wireframe di folder docs.</p>
+                <span class="go">Buka &rarr;</span>
+            </a>
+
+            <a class="card" href="Jobsheet-05/index.html">
+                <span class="tag">Jobsheet 05</span>
+                <h3>JavaScript dan DOM</h3>
+                <p>Menu hamburger, pencarian tabel, konfirmasi hapus, penghitung, dan validasi form.</p>
+                <span class="go">Buka &rarr;</span>
+            </a>
+
+            <a class="card final" href="Jobsheet-06/index.html">
+                <span class="tag">Jobsheet 06 &middot; Versi final</span>
+                <h3>Data Dinamis dengan fetch</h3>
+                <p>Data dimuat dari file JSON memakai async/await, lengkap dengan loading indicator dan penanganan error.</p>
+                <span class="go">Buka &rarr;</span>
+            </a>
+        </div>
+
+        <footer>UTS Dasar Pemrograman Web &middot; SIMPUS-Mini</footer>
+    </div>
+</body>
+</html>
